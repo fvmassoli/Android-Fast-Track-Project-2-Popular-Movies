@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:elevation="@dimen/card_elevation"
+    app:cardPreventCornerOverlap="false"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    android:layout_margin="@dimen/card_side_margin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_trailer_poster"
+        android:background="@color/yellow"/>
+    <ImageView
+        android:layout_width="@dimen/trailer_play_icon_side"
+        android:layout_height="@dimen/trailer_play_icon_side"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_play_circle_outline_white_24dp"/>
+
+</android.support.v7.widget.CardView>

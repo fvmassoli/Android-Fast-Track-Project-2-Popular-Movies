@@ -1,0 +1,46 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_side_margin">4dp</dimen>
+    <dimen name="card_side_margin">4dp</dimen>
+    <dimen name="detail_fragment_text_left_margin">8dp</dimen>
+    <dimen name="big_poster_bottom_margin">120dp</dimen>
+
+    <dimen name="movie_title_left_margin">24dp</dimen>
+    <dimen name="movie_title_right_margin">24dp</dimen>
+    <dimen name="movie_title_bottom_margin">4dp</dimen>
+
+    <dimen name="movie_rating_star_size">24dp</dimen>
+    <dimen name="trailer_play_icon_side">48dp</dimen>
+
+    <dimen name="grid_item_width">50dp</dimen>
+    <dimen name="grid_item_height">100dp</dimen>
+
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_inner_layout_margin">8dp</dimen>
+
+    <dimen name="dialog_icon_size">24dp</dimen>
+
+    <dimen name="Headline">24sp</dimen>
+    <dimen name="cardAuthor">20sp</dimen>
+    <dimen name="Subheading">15sp</dimen>
+    <dimen name="cardview_text_size">13sp</dimen>
+
+    <dimen name="app_bar_height">220dp</dimen>
+
+    <dimen name="video_height">180dp</dimen>
+    <dimen name="video_width">240dp</dimen>
+
+    <dimen name="toolbar_elevation">6dp</dimen>
+
+    <dimen name="bookmark_img_size">24dp</dimen>
+    <dimen name="bookmark_img_margin">6dp</dimen>
+
+    <dimen name="dialog_views_margin">8dp</dimen>
+
+    <dimen name="detail_fragment_bottom_margin">60dp</dimen>
+
+    <dimen name="empty_view_start_side">120dp</dimen>
+</resources>

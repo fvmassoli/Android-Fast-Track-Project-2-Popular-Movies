@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="sort_criterium_labels">
+        <item>@string/most_popular_str</item>
+        <item>@string/highest_rate_str</item>
+        <item>@string/favorites</item>
+    </array>
+
+    <array name="sort_criterium_values">
+        <item>@string/most_popular</item>
+        <item>@string/top_rated</item>
+        <item>@string/favorites</item>
+    </array>
+
+</resources>

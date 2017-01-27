@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MovieTitle">
+        <item name="android:textSize">@dimen/Headline</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:layout_marginLeft">@dimen/movie_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/movie_title_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/movie_title_bottom_margin</item>
+    </style>
+
+    <style name="CardViewAuthor">
+        <item name="android:textSize">@dimen/cardAuthor</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="BodyText">
+        <item name="android:textSize">@dimen/Subheading</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="RecyclerViewTitles">
+        <item name="android:textSize">@dimen/Headline</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="CustomTheme.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+</resources>

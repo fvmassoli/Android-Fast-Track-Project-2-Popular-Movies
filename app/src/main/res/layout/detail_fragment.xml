@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture">
+
+    <include layout="@layout/detail_recyclers_layout" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:clickable="true"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_star_border_yellow_24dp"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>
